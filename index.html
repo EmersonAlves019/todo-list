@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class='header-container'>
+        <h1>Minha Lista de Tarefas</h1>
+    </header>
+    <main>
+        <section id='add-tarefa' >
+            <input type="text" id="texto-tarefa" placeholder="Escreva sua tarefa" >
+            <button id="criar-tarefa">Adicionar Tarefa</button>
+            <button id="salvar-tarefas">Salver lista</button>
+        </section>
+        <section class="list-container">     
+            <ol id="lista-tarefas">
+            </ol>
+            <section class="lateral">
+                <button id="mover-cima">⇑</button>   
+                <button id="mover-baixo">⇓</button>
+            </section>
+        </section>
+        <section class="buttons" >
+            <button id="remover-finalizados">Remover finalizados</button>
+            <button id="apaga-tudo">Apagar tudo</button>
+            <button id="remover-selecionado">Remover selecionado</button>
+        </section>
+        <p id='funcionamento'>Clique duas vezes em um item para marcá-lo como completo</p>
+    </main>
+    <footer class='footer-container'>
+        <p>© Emerson Alves</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url('src/images/wallpaperbetter.com_1920x1080\ \(2\).jpg');
+}
+.header-container {
+  padding-top: 10px;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.397);
+  color: rgb(243, 243, 243);
+  text-align: center;
+  height: 80px;
+  margin-bottom: 50px;
+  border-bottom: 4px solid #00000041;
+}
+main {
+  padding: 20px;
+  border-radius: 5%;
+  margin: 0 auto;
+  background-color: rgba(208, 236, 229, 0.972);
+  width: 500px;
+  height: 500px;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.287);
+  padding-top: 2px;
+  text-align: center;
+}
+
+#texto-tarefa {
+  background-color: aliceblue;
+  border-radius: 10px;
+  width: 220px;
+}
+
+#add-tarefa {
+  border-radius: 10px;
+  background-color: aliceblue;
+  margin: 20px auto;
+  width: 99%;
+  height: 45px;
+  border-bottom: 2px solid rgba(40, 102, 81, 0.616);
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  padding-left: 0px;
+}
+#add-tarefa button {
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.list-container {
+  border-radius: 3%;
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  background-color: aliceblue;
+}
+
+.buttons {
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: aliceblue;
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.buttons button {
+  border-radius: 10px;
+  font-weight: 400;
+  height: 30px;
+  width: 150px;
+}
+
+#lista-tarefas {
+  border-radius: 5px;
+  background-color: rgba(198, 250, 232, 0.472);
+  width: 400px;
+  padding-left: 0;
+  border: 1px solid rgba(0, 0, 0, 0.253);
+  overflow: auto;
+}
+
+#lista-tarefas li {
+  background-color: aliceblue;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.219);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.lateral {
+  margin: 50px 0;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+.lateral button {
+  border-radius: 10px;
+  font-size: 50px;
+  background-color: rgba(36, 194, 154, 0.315);
+}
+
+.completed {
+  font-weight: 800;
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+.completed:after {
+  content: '⠀⠀✅';
+}
+
+#apaga-tudo {
+  background-color: rgba(255, 0, 0, 0.356);
+}
+
+#remover-finalizados {
+  background-color: rgba(214, 149, 29, 0.438);
+}
+
+#remover-selecionado {
+  width: 160px;
+  background-color: rgba(255, 255, 0, 0.383);
+}
+
+#criar-tarefa {
+  background-color: rgba(9, 224, 38, 0.363);
+}
+
+#salvar-tarefas {
+  background-color: rgba(7, 176, 255, 0.596);
+}
+
+#move-cima {
+  background-color: black;
+}
+
+.footer-container {
+  padding: 10px;
+  font-weight: 600;
+  color: white;
+  border-top: 4px solid rgba(0, 0, 0, 0.377);
+  margin-top: 30vh;
+  height: 60px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+button:hover {
+  font-weight: bold;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.287);
+  transition: all 0.2s;
+}
